@@ -1,0 +1,15 @@
+document.getElementById("count-el").innerText = 9 --for getting element and updating through id
+console.log(count) -- to print on console.
+let myAge = 20 + 2 --arth maths on variables
+
+
+
+
+#######################
+let newELE = document.getElementById("count-el")
+let count = 0
+function increament(){
+    count = count + 1
+    newELE.innerText = count
+}
+#######################
